@@ -28,7 +28,7 @@
                <button class="btn btn-primary" ng-click="narrowdown.search();">Narrow It Down For Me!</button>
             </div>
             <div style="height:50px"></div>
-            <div class="emptyMessage">{{menu.nothingFound}}</div>
+            <div class="emptyMessage">{{narrowdown.nothingFound}}</div>
             <found-items
                items="narrowdown.foundItems" title="{{narrowdown.foundItems}}"   on-remove="narrowdown.removeItem(index)"></found-items>
          </div>
